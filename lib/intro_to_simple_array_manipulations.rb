@@ -25,12 +25,12 @@ def shift_with_args(array, element1, element2)
 end
 
 def using_concat(array1, array2)
-  array1.concat
+  array1.concat(array2)
 end
 
-#using_concat
-  takes in two arguments of two different arrays and uses the concat method to add the contents of the second array to the first (FAILED - 12)
-  increases the length of the first array (FAILED - 13)
+def using_insert(array, element)
+  array.insert(element)
+end
 
 #using_insert
   takes in two arguments, an array and a new element to be added to the array. it uses the insert method to add the new element to the 4th index of the array (FAILED - 14)
