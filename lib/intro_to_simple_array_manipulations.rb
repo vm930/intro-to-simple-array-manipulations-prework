@@ -1,14 +1,18 @@
-/*
-#using_push
-  takes in two arguments, an array and a string and adds that string to the endof the array using the push method (FAILED - 1)
+def using_push (array, str)
+  array.push(str)
+end
 
-#using_unshift
-  takes in two arguments, an array and a string and adds that string to the front of the array using the unshift method (FAILED - 2)
-  increases the length of the array (FAILED - 3)
+def using_unshift (array, str)
+  array.unshift(str)
+end 
 
-#using_pop
-  takes in argument of an array and uses the pop method to remove the last element from the array and return that element (FAILED - 4)
-  decreases the length of the array by 1 (FAILED - 5)
+def using_pop (array)
+  array.pop()
+end 
+
+def pop_with_args (array, str) 
+end
+
 
 #pop_with_args
   takes in an argument of an array and uses the pop method with an argument of 2 to remove the last two array items and return them (FAILED - 6)
@@ -155,4 +159,4 @@ Failures:
   19) #using_delete_at takes in two arguments, an array and an integer and deletes the element at the index of the array that is equal to that integer
      Failure/Error: deleted_robot = using_delete_at(famous_robots, 2)
      NoMethodError:
-       undefined method `using_delete_at' for #<RSpec::ExampleGroups::UsingDeleteAt:0x0000000172cdc8>
+       undefined method `using_delete_at' for #<RSpec::ExampleGroups::UsingDeleteAt:0x0000000172cdc8> */
