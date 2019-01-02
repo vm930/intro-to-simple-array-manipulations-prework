@@ -40,11 +40,13 @@ def using_flatten(array)
   array.flatten
 end
 
-def using_delete()
+def using_delete(array, str)
+  array.delete(str)
 end
 
-#using_delete
-  takes in two arguments, an array and a string, and uses the delete method to remove any items from the array that are equal to that string (FAILED - 18)
+def using_delete_at(array,int)
+   
+end
 
 #using_delete_at
   takes in two arguments, an array and an integer and deletes the element at the index of the array that is equal to that integer (FAILED - 19)
